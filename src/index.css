@@ -1,0 +1,29 @@
+.hover-effect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.hover-effect img{
+  width: 100%;
+ 
+  transition: transform 0.7s ease;
+  transform: translateZ(0);
+}
+.hover-effect:hover img{
+transform: scale(1.1)translateZ(50px);
+}
+button{
+  font-weight: bolder!important;
+}
+div{
+  margin: 10px;
+}
